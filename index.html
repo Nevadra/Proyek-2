@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cara Merawat Anjing</title>
+  <style>
+  
+    h1{
+        color:white;
+    }
+    
+    section, p{
+        color:black;
+    }
+    
+    /*column*/
+    .container {
+      display: flex;
+      
+    }
+
+    .column {
+      flex-basis: 50%;
+      padding: 20px;
+      color: white;
+      font-size: 20px;
+    }
+
+    .left-column {
+      background-color: white; 
+      display: flex;
+      align-items: center;
+    }
+
+    .right-column {
+      background-color: white
+    }
+
+    /* navigation */
+    nav {
+      background-color: rgb(144, 12, 63 );
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    nav li {
+      display: inline;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    /*blog section */
+    .blog-section {
+      display: flex;
+      align-items: center;
+    }
+
+    .blog-image {
+      width: 500px;
+      height: auto;
+      margin-right: 20px;
+    }
+
+    /* image section */
+    .image-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .image-section .image-container {
+      flex-basis: 30%;
+      text-align: center;
+      color:white;
+      font-size:16px;
+      text-align: justify;
+    }
+
+    .image-section .image-container img {
+      width: 300px;
+      height: auto;
+    }
+
+    
+    .colored-section {
+      background-color: rgb(144, 12, 63 );
+      padding: 100px 20px;
+    }
+
+    /*contact section */
+    .contact-section {
+      background-color: white;
+      padding: 20px;
+      color: black;
+    }
+
+    @keyframes animasi1{
+        0%{
+            transform: rotateX(0);
+        }
+
+        50%{
+            transform: rotateY(180deg)
+        }
+
+        100%{
+            transform: rotateX(0);
+    }
+}
+
+    .animated1{
+        animation: animasi1 1 forward 2s;
+    }
+
+    .animated2{
+        animation: animasi2 infinite forward 1s;
+    }
+
+    
+    
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="website-name animated1">
+      <h1>Anjingku</h1>
+    </div>
+    <ul>
+    </ul>
+  </nav>
+  <section>
+  <div class="container" id="Home">
+    <div class="column left-column">
+      <p>Anjing dikenal sebagai hewan yang setia. Hal itu bisa terjadi jika kamu memberikan makanan, tempat tinggal, perawatan yang bertanggung jawab, dan cinta. Sebagai balasannya, anjing akan patuh dan menyayangi kamu.
+
+Sama seperti manusia, anjing juga bisa sakit atau mengalami kondisi tidak mengenakan lainnya. Oleh karena itu, sebagai hewan peliharaan, anjing juga memerlukan perawatan yang tepat agar tetap sehat.</p>
+    </div>
+    <div class="column right-column">
+      <div class="blog-section animated1">
+        <img class="blog-image" src="dog1.jpeg" alt="Dog">
+      </div>
+    </div>
+  </div>
+  </section>
+    
+  <div class="colored-section" >
+    <div class="image-section">
+      <div class="image-container">
+        <img src="dog2.jpg" alt="Image 1">
+        <p class="image-container">Cara merawat anak anjing hingga dewasa adalah dengan memberikan makanan yang tepat. Tujuannya agar perkembangan hewan dapat sesuai dengan usianya.
+
+Makanan yang sehat saja tidaklah cukup. Kamu harus memberikan makanan dengan intensitas yang sesuai usianya. Berikan anjing makanan yang bernutrisi untuk memenuhi kebutuhan gizinya. Misalnya dengan memperhatikan protein, lemak, vitamin, dan mineralnya.</p>
+      </div>
+      <div class="image-container">
+        <img src="dog3.jpg" alt="Image 2">
+        <p class="image-container">tetap sehat. Olahraga fisik ini cenderung membantu anjing menghilangkan rasa bosan. Dengan demikian, anjing tidak stres, lebih patuh, dan terarah.
+
+Akan tetapi, kebutuhan latihan tiap anjing bervariasi tergantung ras, jenis kelamin, usia, dan tingkat kesehatan. Oleh karena itu, permainan yang diawasi sesuai dengan kebutuhan anjing akan sangat menyenangkan baginya.</p>
+      </div>
+      <div class="image-container">
+        <img src="dog4.jpeg" alt="Image 3">
+        <p class="image-container">Pantau terus kesehatan anjing dengan rutin mengunjungi dokter hewan. Pemeriksaan dan perawatan rutin ini bertujuan mendeteksi masalah kesehatan yang mungkin terjadi pada anjing sedini mungkin.
+
+Lakukan pemeriksaan ke dokter hewan setiap 6 bulan sekali. Namun, kunjungi segera dokter hewan jika ada tanda kegawatan pada anjing. Nantinya, dokter akan memeriksa kesehatan dan juga perilaku dari anjing.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-section">
+    <h2>Contact Us</h2>
+    <ul>
+      <li>Email: info@anjingku.com</li>
+      <li>Phone: 123-456-7890</li>
+    </ul>
+  </div>
+</body>
+</html>
